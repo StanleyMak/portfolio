@@ -42,7 +42,6 @@ export default function NavBar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <div className="flex flex-row items-center justify-center space-x-2 mb-1">
               <Link to="home">
                 <div  className="container flex items-center space-x-2">
                   <h2 className="text-2xl font-bold">Stanley Mak</h2>
@@ -120,7 +119,6 @@ export default function NavBar() {
             </div>
           </div>
         </div>
-      </div>
     </header>
   )
 }
