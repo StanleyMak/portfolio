@@ -51,7 +51,7 @@ const AboutSection: React.FC<any> = () => {
             <p>
               I am a{" "}
               <span className="font-bold text-teal-600">{"Penultimate Information Systems"}</span>
-              student from the National University of Singapore.
+              {" "}student from the National University of Singapore.
             </p>
             <br />
             <p>
