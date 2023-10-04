@@ -1,6 +1,6 @@
 "use client" // this is a client component
 import React from "react"
-import { useState, PropsWithChildren } from "react"
+import { useState } from "react"
 import { Link } from "react-scroll/modules"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
@@ -32,7 +32,7 @@ const NAV_ITEMS: Array<NavItem> = [
   }
 ]
 
-const NavBar: PropsWithChildren<any> = () => {
+export default function NavBar() {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === "system" ? systemTheme : theme
   const pathname = usePathname()
@@ -124,5 +124,3 @@ const NavBar: PropsWithChildren<any> = () => {
     </header>
   )
 }
-
-export default NavBar
