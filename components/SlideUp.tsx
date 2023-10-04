@@ -7,7 +7,7 @@ interface Props {
   // any props that come into the component
 }
 
-export default function SlideUp({ children, offset = "0px" }: Props) {
+const SlideUp: React.FC<any> = ({ children, offset = "0px" }: Props) => {
   const ref = useRef(null)
 
   useEffect(() => {
@@ -34,3 +34,5 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
     </div>
   )
 }
+
+export default SlideUp

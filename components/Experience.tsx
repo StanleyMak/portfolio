@@ -32,7 +32,7 @@ const experiences = [
   },
 ]
 
-const Experience = () => {
+const Experience: React.FC<any> = () => {
   return (
     <section id="experience">
         <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>

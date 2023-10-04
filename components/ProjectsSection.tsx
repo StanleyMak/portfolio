@@ -55,7 +55,7 @@ const projects = [
   },
 ]
 
-const ProjectsSection = () => {
+const ProjectsSection: React.FC<any> = () => {
   return (
     <section id="projects">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
