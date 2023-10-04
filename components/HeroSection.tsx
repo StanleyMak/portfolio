@@ -25,11 +25,10 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Software Engineer{" "}
             </span>
-            based in Singapore. Working towards creating software that
-            makes life easier and more meaningful.
+            based in Singapore. Striving to simplify and enrich lives through software.
           </p>
           <Link
-            to="projects"
+            to="experience"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
@@ -37,7 +36,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            Projects
+            Experience
           </Link>
         </div>
       </div>

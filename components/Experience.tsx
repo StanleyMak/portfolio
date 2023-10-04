@@ -8,25 +8,25 @@ const experiences = [
   {
     name: "Urban Sharing",
     description:
-    "Full-stack Developer at a bike sharing software company",
+    "Full-stack Developer at Norway's leading bicycle-sharing software firm",
     image: "/urbanSharing.jpeg",
     link: "https://urbansharing.com/",
   },
   {
     name: "KABAM Robotics",
-    description: "Software Engineer at a robotics software company",
+    description: "Software Engineer at a cutting-edge robotics software firm",
     image: "/kabam.png",
     link: "https://kabam.ai/",
   },
   {
     name: "Teaching Assistant (Data Management and Visualisation)",
-    description: "Teaching Assistant of a class of 35 at the National University of Singapore",
+    description: "Teaching Assistant for a class of 35 at the National University of Singapore",
     image: "/bt2102.jpeg",
     link: "https://nusmods.com/courses/BT2102/data-management-and-visualisation",
   },
   {
     name: "Teaching Assistant (Programming Methodology)",
-    description: "Teaching Assistant of a class of 15 at the National University of Singapore",
+    description: "Teaching Assistant for a class of 15 at the National University of Singapore",
     image: "/cs1010j.jpeg",
     link: "https://nusmods.com/courses/CS1010J/programming-methodology",
   },
@@ -35,12 +35,13 @@ const experiences = [
 const Experience = () => {
   return (
     <section id="experience">
+        <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <h1 className="my-10 text-center font-bold text-4xl">
         Experience
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
-      <div className="flex flex-col space-y-28">
+      <div className="flex flex-col space-y-28 md:pb-48">
         {experiences.map((experience, idx) => {
           return (
             <div key={idx}>
@@ -63,12 +64,6 @@ const Experience = () => {
                       {experience.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      {/* <Link href={experience.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link> */}
                       <Link href={experience.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}

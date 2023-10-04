@@ -9,14 +9,14 @@ const projects = [
   {
     name: "Infinite Carpool",
     description:
-    "Infinite Carpool is a web app that groups colleagues in to share car transportation to and fro work.",
+    "Infinite Carpool is a web app designed to help coworkers carpool to and from work by organizing shared rides",
     image: "/infiniteCarpool.mp4",
     github: "https://github.com/adityajirafe/InfiniteIteratorsLifeHack",
     link: "",
   },
   {
     name: "Novus Hotel",
-    description: "Novus Hotel is a mock hotel owner client where we perform data engineering to improve their business decisions",
+    description: "Novus Hotel is a simulated client for a hotel owner, serving as a platform for data engineering to enhance their business decision-making",
     image: "/novusHotel.mp4",
     github: "https://github.com/brandonmanggo/IS3107_G2",
     link: "",
@@ -24,7 +24,7 @@ const projects = [
   {
     name: "DropAndGo",
     description:
-      "DropAndGo is a web application for brick and mortar stores to open up small spaces for customers to leave their belongings temporarily for a price",
+      "DropAndGo is a web app designed for physical stores to offer convenient storage solutions to customers who need a safe place to temporarily store their belongings for a fee",
     image: "/dropAndGo.mp4",
     github: "https://github.com/seantanyurong/drop-and-go",
     link: "https://is3106-dropandgo.netlify.app/",
@@ -32,7 +32,7 @@ const projects = [
   {
     name: "Libary Management System",
     description:
-      "Library Management System is a web application that digitalises the process sof borrowing books at a library",
+      "Library Management System is a web application that streamlines and modernizes the book borrowing process in libraries",
     image: "/lms.mp4",
     github: "https://github.com/StanleyMak/libraryManagementSystem",
     link: "",
@@ -40,7 +40,7 @@ const projects = [
   {
     name: "Car Rental Management System",
     description:
-      "Car Rental Management System is an application that manages rental of cars",
+      "Car Rental Management System is an application designed to efficiently handle car rental services",
     image: "/crms.png",
     github: "https://github.com/StanleyMak/IS2103-Pair-Project",
     link: "",
@@ -48,7 +48,7 @@ const projects = [
   {
     name: "Fit4Life",
     description:
-      "Fit4Life is a web application that allows users to try on clothes virtually on their customisable 3D avatar",
+      "Fit4Life is a web application that enables users to virtually try on clothing using a personalized 3D avatar",
     image: "/fit4Life.mp4",
     github: "https://github.com/rylzxc/Fit4Life-Test-",
     link: "",
@@ -58,6 +58,9 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <section id="projects">
+      <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
+    <div className="my-12 pb-12">
+
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
@@ -122,18 +125,7 @@ const ProjectsSection = () => {
         })}
         
       </div>
-      {/* <div className="flex flex-row items-center text-center justify-center ">
-        <Link
-          to="experience"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <HiArrowDown size={35} className="animate-bounce" />
-        </Link>
-      </div> */}
+      </div>
     </section>
   )
 }

@@ -3,17 +3,28 @@ import Image from "next/image"
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
+  { skill: "Java" },
+  { skill: "R" },
+  { skill: "Python" },
+  { skill: "SQL/NoSQL" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
+  { skill: "HTML" },
+  { skill: "CSS" },
   { skill: "React" },
   { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "Node.js" },
+  { skill: "PostgreSQL" },
+  { skill: "Google Cloud Platform" },
+  { skill: "MongoDB" },
+  { skill: "Tableau" },
+  { skill: "FIrebase" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Jupyter Notebooks" },
+  { skill: "Tailwind" },
+  { skill: "Material UI" },
+  { skill: "Bootstrap" },
 ]
 
 const AboutSection = () => {
@@ -32,32 +43,29 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Stanley and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
+              <span className="font-bold text-teal-600">{"highly ambitious"}</span>,
+              <span className="font-bold text-teal-600">{" self-motivated"}</span>, and
+              <span className="font-bold text-teal-600">{" driven"}</span> Software Engineer
               based in Singapore.
             </p>
             <br />
             <p>
-              I am a penultimate information systems student from National University of Singapore.
+              I am a{" "}
+              <span className="font-bold text-teal-600">{"Penultimate Information Systems"}</span>
+              student from the National University of Singapore.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              I am fueled by an unwavering passion for technology and a thirst
+              to constantly{" "} 
+              <span className="font-bold text-teal-600">{"redefine the boundaries"}</span>
+              {" "}of what's achievable. I am not just eager,
+              but enthusiastic about the uncharted territories that lie ahead in my career.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+            Every new opportunity is a chance for me to craft a future that{" "}
+            <span className="font-bold text-teal-600">{"challenges the status quo."}</span>
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
