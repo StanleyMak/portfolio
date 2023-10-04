@@ -40,28 +40,13 @@ export default function NavBar() {
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
-      <div>
+        <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Stanley here</h2>
+                <h2 className="text-2xl font-bold">Stanley Mak</h2>
               </div>
-              {/* <a href="https://github.com/StanleyMak" rel="noreferrer" target="_blank">
-                <AiOutlineGithub
-                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                  size={30}
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/stanley-mak-760866204/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <AiOutlineLinkedin
-                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                  size={30}
-                />
-              </a> */}
-            </div>
+            </Link>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -117,6 +102,7 @@ export default function NavBar() {
             </div>
           </div>
         </div>
+      </div>
     </header>
   )
 }
