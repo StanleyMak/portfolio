@@ -1,12 +1,13 @@
 "use client" // this is a client component
 import React from "react"
-import { useState } from "react"
+import { useState, PropsWithChildren } from "react"
 import { Link } from "react-scroll/modules"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai"
+import { Props } from "next/script"
 
 interface NavItem {
   label: string
@@ -32,7 +33,7 @@ const NAV_ITEMS: Array<NavItem> = [
   }
 ]
 
-const NavBar: React.FC<any> = () => {
+const NavBar: PropsWithChildren<any> = () => {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === "system" ? systemTheme : theme
   const pathname = usePathname()
