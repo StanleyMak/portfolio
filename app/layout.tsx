@@ -16,6 +16,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
+      <meta name="google-site-verification" content="Xx5eI4RX5xwovf0xTxfo6qQ1c9NQQUPYMuwbFgqe3e0" />
       <body className="dark:bg-stone-900">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
