@@ -59,7 +59,7 @@ const AboutSection = () => {
               I am fueled by an unwavering passion for technology and a thirst
               to constantly{" "} 
               <span className="font-bold text-teal-600">{"redefine the boundaries"}</span>
-              {" "}of what's achievable. I am not just eager,
+              {" "}of what is achievable. I am not just eager,
               but enthusiastic about the uncharted territories that lie ahead in my career.
             </p>
             <br />
