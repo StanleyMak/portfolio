@@ -42,12 +42,12 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
-              <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Stanley Mak</h2>
-              </div>
-            </Link>
             <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+              <Link to="home">
+                <div className="container flex items-center space-x-2">
+                  <h2 className="text-2xl font-bold">Stanley Mak</h2>
+                </div>
+              </Link>
               <a href="https://github.com/StanleyMak" rel="noreferrer" target="_blank">
                 <AiOutlineGithub
                   className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
