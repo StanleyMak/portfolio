@@ -16,7 +16,7 @@ const skills = [
   { skill: "Google Cloud Platform" },
   { skill: "MongoDB" },
   { skill: "Tableau" },
-  { skill: "FIrebase" },
+  { skill: "Firebase" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Jupyter Notebooks" },
