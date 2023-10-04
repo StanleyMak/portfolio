@@ -12,14 +12,14 @@ const projects = [
     "Infinite Carpool is a web app designed to help coworkers carpool to and from work by organizing shared rides",
     image: "/infiniteCarpool.mp4",
     github: "https://github.com/adityajirafe/InfiniteIteratorsLifeHack",
-    link: "",
+    link: "https://github.com/adityajirafe/InfiniteIteratorsLifeHack",
   },
   {
     name: "Novus Hotel",
     description: "Novus Hotel is a simulated client for a hotel owner, serving as a platform for data engineering to enhance their business decision-making",
     image: "/novusHotel.mp4",
     github: "https://github.com/brandonmanggo/IS3107_G2",
-    link: "",
+    link: "https://github.com/brandonmanggo/IS3107_G2",
   },
   {
     name: "DropAndGo",
@@ -35,7 +35,7 @@ const projects = [
       "Library Management System is a web application that streamlines and modernizes the book borrowing process in libraries",
     image: "/lms.mp4",
     github: "https://github.com/StanleyMak/libraryManagementSystem",
-    link: "",
+    link: "https://github.com/StanleyMak/libraryManagementSystem",
   },
   {
     name: "Car Rental Management System",
@@ -43,7 +43,7 @@ const projects = [
       "Car Rental Management System is an application designed to efficiently handle car rental services",
     image: "/crms.png",
     github: "https://github.com/StanleyMak/IS2103-Pair-Project",
-    link: "",
+    link: "https://github.com/StanleyMak/IS2103-Pair-Project",
   },
   {
     name: "Fit4Life",
@@ -51,7 +51,7 @@ const projects = [
       "Fit4Life is a web application that enables users to virtually try on clothing using a personalized 3D avatar",
     image: "/fit4Life.mp4",
     github: "https://github.com/rylzxc/Fit4Life-Test-",
-    link: "",
+    link: "https://github.com/rylzxc/Fit4Life-Test-",
   },
 ]
 
