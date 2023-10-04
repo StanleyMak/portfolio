@@ -1,6 +1,4 @@
 import React from "react"
-import Image from "next/image"
-import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai"
 
 const skills = [
   { skill: "Java" },

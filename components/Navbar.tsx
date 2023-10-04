@@ -1,13 +1,12 @@
 "use client" // this is a client component
 import React from "react"
 import { useState, PropsWithChildren } from "react"
-import { Link } from "react-scroll/modules"
+import { Link } from "react-scroll"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai"
-import { Props } from "next/script"
 
 interface NavItem {
   label: string
@@ -44,8 +43,10 @@ const NavBar: PropsWithChildren<any> = () => {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-              <Link to="home" className="container flex items-center space-x-2">
+              <Link to="home">
+                <div  className="container flex items-center space-x-2">
                   <h2 className="text-2xl font-bold">Stanley Mak</h2>
+                  </div>
               </Link>
               <a href="https://github.com/StanleyMak" rel="noreferrer" target="_blank">
                 <AiOutlineGithub
