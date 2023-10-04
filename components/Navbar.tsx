@@ -43,9 +43,9 @@ export default function NavBar() {
       <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Stanley here 🛸</h2>
+                <h2 className="text-2xl font-bold">Stanley here</h2>
               </div>
-              <a href="https://github.com/StanleyMak" rel="noreferrer" target="_blank">
+              {/* <a href="https://github.com/StanleyMak" rel="noreferrer" target="_blank">
                 <AiOutlineGithub
                   className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
                   size={30}
@@ -60,7 +60,7 @@ export default function NavBar() {
                   className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
                   size={30}
                 />
-              </a>
+              </a> */}
             </div>
             <div className="md:hidden">
               <button
