@@ -1,7 +1,8 @@
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
-import { Link } from "react-scroll"
+import { Link } from "react-scroll/modules"
+import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection: React.FC<any> = () => {
   return (
@@ -37,8 +38,6 @@ const HeroSection: React.FC<any> = () => {
             Experience
           </Link>
         </div>
-      </div>
-      <div className="flex flex-row items-center text-center justify-center ">
       </div>
     </section>
   )
