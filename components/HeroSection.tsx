@@ -42,7 +42,7 @@ export default function HeroSection() {
           </Link>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 mr-4 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -50,6 +50,17 @@ export default function HeroSection() {
             duration={500}
           >
             Projects
+          </Link>
+          <Link
+            to="certifications"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Certifications
           </Link>
         </div>
       </div>

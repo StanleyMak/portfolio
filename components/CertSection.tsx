@@ -61,11 +61,11 @@ const certs = [
 export default function CertSection() {
   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
   return (
-    <section id="certificates">
+    <section id="certifications">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="my-12 pb-12">
         <h1 className="my-10 text-center font-bold text-4xl">
-          Certificates
+        Certifications
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
 
